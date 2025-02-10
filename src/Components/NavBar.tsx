@@ -76,10 +76,10 @@ const NavBar = () => {
       initial="hidden"
       animate="visible"
       transition={{ duration: 0.5, delay: 0.5, type: "spring", stiffness: 100 }}
-      className="fixed inset-x-0 z-40"
+      className="fixed inset-x-0 z-40  max-w-[1680px] mx-auto"
     >
       <div
-        className={`navbar sm:w-[640px] md:w-full shadow-lg transition overflow-x-hidden  ${
+        className={`navbar sm:w-[640px] md:w-full shadow-lg transition overflow-x-hidden overflow-y-hidden  ${
           isTop ? "bg-[#02182315]" : "bg-[#0218238d]"
         }`}
       >
@@ -125,7 +125,7 @@ const NavBar = () => {
             {/* <Link className="text-xl" to={'/'}><img src="https://i.ibb.co/tPB8G91/logo.png" className="w-10 h-auto" alt="" /></Link> */}
             <Link href="/" className="text-xl">
               <Image
-                src="https://i.ibb.co/tPB8G91/logo.png"
+                src="/logo.png"
                 alt="Logo"
                 width={40} // Adjust size as needed
                 height={40}

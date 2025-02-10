@@ -52,8 +52,9 @@ background-color: transparent;
 }
 
 .cmn-btn-one{
-  @apply bg-[#11f5d4] px-5 py-2 hover:bg-[#0cbca3] rounded  text-slate-50 font-bold
+  @apply bg-[#1F756A] px-5 py-2 hover:bg-[#0cbca3] rounded  text-slate-50 font-bold
 }
 .cmn-btn-one-outline{
-  @apply  text-[#15EBD1] border-2 border-[#15EBD1] hover:bg-[#1F756A] hover:text-white transition px-5 py-2 rounded font-bold
+  @apply  text-[#1F756A] border-2 border-[#15EBD1] hover:bg-[#15EBD1] hover:text-white transition px-5 py-2 rounded font-bold
 }
+
