@@ -10,6 +10,15 @@
       },
     {
         "_id": 2,
+        "projectName": "Daily Pulse Newspaper",
+        "liveLink": "https://assignment-12-cb947.web.app/",
+        "projectImg": "https://i.ibb.co/Fzz063v/S-02.png",
+        "projectBanner": "https://i.ibb.co/bbD4sJX/daily-pluse-muq.png",
+        "projectOverview": "Welcome to Daily Pulse, your go-to source for the latest news and insights. Our website, meticulously crafted using React for the client-side, promises a dynamic, interactive, and user-friendly platform for news enthusiasts. Leveraging Firebase and Express for server-side operations ensures a seamless and efficient experience. Dive into a diverse range of news categories and engage with a community of informed readers. One of our standout features is the ability for users to actively contribute by posting articles. With a simple sign-up process, users can share their perspectives, ensuring a diverse range of voices. To maintain quality, our admin team carefully approves each article, upholding the standards of Daily Pulse. For a more enhanced experience, we offer a premium membership option. Subscribers can enjoy exclusive content, early access to breaking news, and an ad-free reading environment. Daily Pulse is not just a news platform; it's a dynamic community where information meets engagement, and users shape the conversation. Stay informed, stay connected",
+        "tools": ["HTML", "CSS", "JavaScript", "React", "Firebase", "Express JS"]
+      },
+    {
+        "_id": 3,
         "projectName": "Fitness Home ",
         "liveLink": "https://assignment-11-clint-side-8097e.web.app/",
         "projectImg": "https://i.ibb.co/dppzW63/S-01.png",
@@ -18,7 +27,7 @@
         "tools": ["HTML", "CSS", "JavaScript", "React", "Firebase", "Express JS", "mongoDB"]
       },
     {
-        "_id": 3,
+        "_id": 4,
         "projectName": " Car Hub ",
         "liveLink": "https://assignment-10-clint-side.netlify.app/",
         "projectImg": "https://i.ibb.co/RzwrZcn/S-03.png",

@@ -2,6 +2,7 @@
 
 import About from "@/Components/About/About";
 import Banner from "@/Components/Home/Banner";
+import Projects from "@/Components/featuredProject/Projects";
 import Skill from "@/Components/skill/Skill";
 
 export default function Home() {
@@ -11,6 +12,7 @@ export default function Home() {
         <Banner />
         <About />
         <Skill />
+        <Projects />
       </div>
       {/* <NavBar /> */}
     </>

@@ -50,12 +50,12 @@ const NavBar = () => {
         </a>
       </li>
       <li>
-        <a
-          className="rounded-none text-slate-50 font-bold hover:!text-[#15EBD1]  hover:border-[#15EBD1] hover:border-b-2 transition duration-300"
-          href="#projects"
+        <Link
+          className="rounded-none text-slate-50 md:px-4 md:py-2 font-bold hover:!text-[#15EBD1]  hover:border-[#15EBD1] hover:border-b-2 transition duration-300 focus:!text-[#15EBD1]"
+          href="/projects"
         >
-          Projects
-        </a>
+         All Projects
+          </Link>
       </li>
       <li>
         <a

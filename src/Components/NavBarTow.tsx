@@ -50,12 +50,12 @@ const NavBarTow = () => {
         </a>
       </li>
       <li>
-        <a
+        <Link
           className="rounded-none text-slate-50 md:px-4 md:py-2 font-bold hover:!text-[#15EBD1]  hover:border-[#15EBD1] hover:border-b-2 transition duration-300"
-          href="#projects"
+          href="/projects"
         >
           Projects
-        </a>
+          </Link>
       </li>
       <li>
         <a
