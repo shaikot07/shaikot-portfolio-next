@@ -1,8 +1,7 @@
-"use client"
+"use client";
 
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
-// import { FaFileDownload } from "react-icons/fa";
 import Link from "next/link";
 import Image from "next/image";
 import { FaFileDownload } from "react-icons/fa";
@@ -22,16 +21,16 @@ const NavBar = () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, [isTop]);
+
   const menu = (
     <>
       <li>
-        {" "}
         <Link
           className="rounded-none text-slate-50 font-bold border-b-0 hover:!text-[#15EBD1] hover:border-[#15EBD1] hover:border-b-2 transition duration-300 focus:!text-white"
           href={"/"}
         >
           Home
-        </Link>{" "}
+        </Link>
       </li>
       <li>
         <a
@@ -54,8 +53,16 @@ const NavBar = () => {
           className="rounded-none text-slate-50 md:px-4 md:py-2 font-bold hover:!text-[#15EBD1]  hover:border-[#15EBD1] hover:border-b-2 transition duration-300 focus:!text-[#15EBD1]"
           href="/projects"
         >
-         All Projects
-          </Link>
+          All Projects
+        </Link>
+      </li>
+      <li>
+        <Link
+          className="rounded-none text-slate-50 md:px-4 md:py-2 font-bold hover:!text-[#15EBD1]  hover:border-[#15EBD1] hover:border-b-2 transition duration-300 focus:!text-[#15EBD1]"
+          href="/blog"
+        >
+          Blog
+        </Link>
       </li>
       <li>
         <a
@@ -67,6 +74,7 @@ const NavBar = () => {
       </li>
     </>
   );
+
   return (
     <motion.div
       variants={{
@@ -76,7 +84,7 @@ const NavBar = () => {
       initial="hidden"
       animate="visible"
       transition={{ duration: 0.5, delay: 0.5, type: "spring", stiffness: 100 }}
-      className="fixed inset-x-0 z-40  max-w-[1680px] mx-auto"
+      className="fixed inset-x-0 top-0 z-50 max-w-[1680px] mx-auto"
     >
       <div
         className={`navbar sm:w-[640px] md:w-full shadow-lg transition overflow-x-hidden overflow-y-hidden  ${
@@ -85,7 +93,7 @@ const NavBar = () => {
       >
         <div className="navbar-start">
           <div className="dropdown">
-            <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
+            <div tabIndex={0} role="button" className="btn btn-ghost  lg:hidden">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-5 w-5"
@@ -103,7 +111,8 @@ const NavBar = () => {
             </div>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-[#081229] rounded-box w-52"
+              // className="menu menu-sm dropdown-content mt-3 z-50 p-2 shadow bg-[#9a121e] rounded-box w-52"
+              className="menu menu-sm dropdown-content mt-3 z-50 p-2 shadow bg-[#9a121e] rounded-box w-52"
             >
               {menu}
             </ul>
@@ -122,24 +131,24 @@ const NavBar = () => {
               stiffness: 100,
             }}
           >
-            {/* <Link className="text-xl" to={'/'}><img src="https://i.ibb.co/tPB8G91/logo.png" className="w-10 h-auto" alt="" /></Link> */}
             <Link href="/" className="text-xl">
               <Image
                 src="/logo.png"
                 alt="Logo"
-                width={40} // Adjust size as needed
+                width={40}
                 height={40}
                 className="w-10 h-auto"
-                priority // Ensures faster loading
+                priority
               />
             </Link>
-            {/* <Link to='/'>LOGO</Link> */}
           </motion.div>
         </div>
+
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">{menu}</ul>
         </div>
-        <div className="navbar-end ">
+
+        <div className="navbar-end">
           <motion.div
             variants={{
               hidden: { opacity: 0, x: 75 },
@@ -165,9 +174,8 @@ const NavBar = () => {
                 whileTap={{ scale: 0.9 }}
                 className={"cmn-btn-one"}
               >
-                {" "}
                 Resume <FaFileDownload className="inline" />
-              </motion.button>{" "}
+              </motion.button>
             </Link>
           </motion.div>
         </div>
@@ -177,6 +185,3 @@ const NavBar = () => {
 };
 
 export default NavBar;
-
-// developer note:
-// nav bare ai pages ta render hosche

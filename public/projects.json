@@ -3,7 +3,7 @@
         "_id": 1,
         "projectName": "Daily Pulse Newspaper",
         "liveLink": "https://assignment-12-cb947.web.app/",
-        "projectImg": "https://i.ibb.co/Fzz063v/S-02.png",
+        "projectImg": "https://i.ibb.co.com/k7Y3Hv4/S-02.png",
         "projectBanner": "https://i.ibb.co/bbD4sJX/daily-pluse-muq.png",
         "projectOverview": "Welcome to Daily Pulse, your go-to source for the latest news and insights. Our website, meticulously crafted using React for the client-side, promises a dynamic, interactive, and user-friendly platform for news enthusiasts. Leveraging Firebase and Express for server-side operations ensures a seamless and efficient experience. Dive into a diverse range of news categories and engage with a community of informed readers. One of our standout features is the ability for users to actively contribute by posting articles. With a simple sign-up process, users can share their perspectives, ensuring a diverse range of voices. To maintain quality, our admin team carefully approves each article, upholding the standards of Daily Pulse. For a more enhanced experience, we offer a premium membership option. Subscribers can enjoy exclusive content, early access to breaking news, and an ad-free reading environment. Daily Pulse is not just a news platform; it's a dynamic community where information meets engagement, and users shape the conversation. Stay informed, stay connected",
         "tools": ["HTML", "CSS", "JavaScript", "React", "Firebase", "Express JS"]
@@ -12,7 +12,7 @@
         "_id": 2,
         "projectName": "Daily Pulse Newspaper",
         "liveLink": "https://assignment-12-cb947.web.app/",
-        "projectImg": "https://i.ibb.co/Fzz063v/S-02.png",
+        "projectImg": "https://i.ibb.co.com/k7Y3Hv4/S-02.png",
         "projectBanner": "https://i.ibb.co/bbD4sJX/daily-pluse-muq.png",
         "projectOverview": "Welcome to Daily Pulse, your go-to source for the latest news and insights. Our website, meticulously crafted using React for the client-side, promises a dynamic, interactive, and user-friendly platform for news enthusiasts. Leveraging Firebase and Express for server-side operations ensures a seamless and efficient experience. Dive into a diverse range of news categories and engage with a community of informed readers. One of our standout features is the ability for users to actively contribute by posting articles. With a simple sign-up process, users can share their perspectives, ensuring a diverse range of voices. To maintain quality, our admin team carefully approves each article, upholding the standards of Daily Pulse. For a more enhanced experience, we offer a premium membership option. Subscribers can enjoy exclusive content, early access to breaking news, and an ad-free reading environment. Daily Pulse is not just a news platform; it's a dynamic community where information meets engagement, and users shape the conversation. Stay informed, stay connected",
         "tools": ["HTML", "CSS", "JavaScript", "React", "Firebase", "Express JS"]
@@ -21,7 +21,7 @@
         "_id": 3,
         "projectName": "Fitness Home ",
         "liveLink": "https://assignment-11-clint-side-8097e.web.app/",
-        "projectImg": "https://i.ibb.co/dppzW63/S-01.png",
+        "projectImg": "https://i.ibb.co.com/hxW464rG/S-01.png",
         "projectBanner": "https://i.ibb.co/ygB2Wn2/istockphoto-1162162438-1024x1024.jpg",
         "projectOverview": "Welcome to Fitness Home, your ultimate online destination for a transformative fitness experience. Our website, meticulously developed using React for the client-side, guarantees an engaging, interactive, and user-friendly interface for fitness enthusiasts. To ensure a seamless and efficient platform, we've employed Firebase and Express for server-side operations, leveraging their robust functionalities. Explore our diverse range of fitness programs, connect with expert trainers, and join a community passionate about health and wellness. Whether you're on a fitness journey, seeking expert guidance, or fostering a healthier lifestyle, Fitness Home is your virtual gateway to achieving your wellness goals",
         "tools": ["HTML", "CSS", "JavaScript", "React", "Firebase", "Express JS", "mongoDB"]
@@ -30,7 +30,7 @@
         "_id": 4,
         "projectName": " Car Hub ",
         "liveLink": "https://assignment-10-clint-side.netlify.app/",
-        "projectImg": "https://i.ibb.co/RzwrZcn/S-03.png",
+        "projectImg": "https://i.ibb.co.com/6cqsqQnM/S-03.png",
         "projectBanner": "https://i.ibb.co/pzSJJhv/istockphoto-1372734450-1024x1024.jpg",
         "projectOverview": "Welcome to Car Hub, your premier destination for an immersive automotive experience. Our website, powered by cutting-edge technology, was meticulously crafted using React on the client-side, ensuring a dynamic, interactive, and user-friendly interface for car enthusiasts. Behind the scenes, we leverage the robust functionalities of Firebase and Express to handle server-side operations, creating a seamless and efficient platform. Explore our extensive inventory, discover the latest models, and engage with a community of automotive enthusiasts. Whether you're a buyer, seller, or simply passionate about cars, Car Hub is designed to elevate your journey in the world of automobiles!",
         "tools": ["HTML", "CSS", "JavaScript", "React", "Firebase", "Express JS", "mongoDB"]

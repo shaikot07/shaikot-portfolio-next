@@ -13,9 +13,9 @@ const Projects = () => {
     <div className="py-20 mb-12 my-container" >
       {/* <Design></Design> */}
       <SectionTitle
-        title={"projects"}
+        title={"Project Showcase"}
         subtitle={
-          "Here you will find some of the personal and  projects that I created with each project containing its own case study"
+          "Keep thinking, keep building, keep learning."
         }
       ></SectionTitle>
       <div className="space-y-36 mt-10">

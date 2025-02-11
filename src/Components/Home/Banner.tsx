@@ -14,7 +14,7 @@ import Link from "next/link";
 const Banner = () => {
   return (
     <div
-      className="bg-cover bg-center text-white bg-fixed relative overflow-x-hidden  bg-slate-900 bg-blend-overlay"
+      className="bg-cover bg-center text-white bg-fixed hide-scrollbar  overflow-x-hidden  bg-slate-900 bg-blend-overlay"
       style={{ backgroundImage: "url('/img/Pt-Bg.jpg')" }}
     >
       <div className="h-screen  grid grid-cols-1 lg:grid-cols-2 gap-8 mx-5 lg:mx-10 items-center justify-center">
