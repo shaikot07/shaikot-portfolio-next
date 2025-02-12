@@ -8,13 +8,15 @@ import Skill from "@/Components/skill/Skill";
 export default function Home() {
   return (
     <>
+        {/* <NavBar /> */}
       <div className="overflow-x-hidden ">
+       
         <Banner />
         <About />
         <Skill />
         <Projects />
       </div>
-      {/* <NavBar /> */}
+  
     </>
   );
 }
