@@ -32,7 +32,7 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
           isSidebarOpen ? "translate-x-0" : "-translate-x-full"
         } md:translate-x-0 md:relative md:flex`}
       >
-        <h2 className="text-2xl font-bold text-gray-200 mb-8">Dashboard</h2>
+        <h2 className="text-2xl font-bold text-gray-200 mb-8">Dashboard only for admin</h2>
         <nav>
           <ul className="space-y-4">
             {menuItems.map((item) => (
