@@ -4,6 +4,7 @@ import "./globals.css";
 import { Toaster } from "sonner";
 import NavBar from "@/Components/NavBar";
 import NavBarTow from "@/Components/NavBarTow";
+import NavbarWrapper from "@/Components/NavbarWrapper";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -26,11 +27,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html suppressHydrationWarning={true} lang="en">
+    <html  lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+        className={`${geistSans.variable} ${geistMono.variable} antialiased`} suppressHydrationWarning>
+           
            <header>
-          <NavBar />
+            <NavbarWrapper/>
+          {/* <NavBar /> */}
           {/* <NavBarTow /> */}
         </header>
         {children}

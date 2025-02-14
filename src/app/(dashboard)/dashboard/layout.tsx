@@ -12,6 +12,7 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
   const menuItems = [
     { name: "Home", href: "/dashboard", icon: <Home size={20} /> },
     { name: "Profile", href: "/dashboard/profile", icon: <User size={20} /> },
+    { name: "Project", href: "/dashboard/addproject", icon: <User size={20} /> },
     { name: "Settings", href: "/dashboard/settings", icon: <Settings size={20} /> },
   ];
 
