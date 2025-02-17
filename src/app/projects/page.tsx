@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import ProjectCart from "@/Components/AllProjectComonent/ProjectCart";
 import SectionTitle from "@/Components/sectionTitle/SectionTitle";
 
@@ -15,7 +16,7 @@ const pageProjects = async () => {
     subtitle={"Keep thinking, keep building, keep learning."}
   />
   <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-1 lg:grid-cols-3 gap-6 justify-center items-center place-items-center">
-    {projects.map((project) => (
+    {projects.map((project:any) => (
       <ProjectCart key={project._id} project={project} />
     ))}
   </div>
