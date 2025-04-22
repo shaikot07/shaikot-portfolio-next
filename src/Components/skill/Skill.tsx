@@ -36,7 +36,7 @@ const Skill = () => {
         <div className=" text-white py-10 px-5 lg:px-20">
           {/* Skills Section */}
           <div className="text-center mb-10">
-            <h2 className="text-2xl font-semibold">Skills</h2>
+            {/* <h2 className="text-2xl font-semibold">Skills</h2> */}
           </div>
           <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-8 justify-center items-center">
             {skills.map((skill) => (
@@ -53,9 +53,9 @@ const Skill = () => {
 
           {/* Tools Section */}
           <div className="text-center mt-16 mb-6">
-            <h2 className="text-2xl mt-8 font-semibold">Tools </h2>
+            {/* <h2 className="text-2xl mt-8 font-semibold">Tools </h2> */}
           </div>
-          <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-6 justify-center items-center">
+          <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-6 justify-center items-center ">
             {tools.map((tool) => (
               <Image
                 key={tool.alt}
@@ -63,7 +63,8 @@ const Skill = () => {
                 alt={tool.alt}
                 width={64}
                 height={64}
-                className="mx-auto"
+                className="mx-auto bg-pink-700"
+                
               />
             ))}
           </div>
