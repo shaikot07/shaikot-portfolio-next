@@ -63,7 +63,7 @@ const Skill = () => {
                 alt={tool.alt}
                 width={64}
                 height={64}
-                className="mx-auto bg-pink-700"
+                className="mx-auto "
                 
               />
             ))}
