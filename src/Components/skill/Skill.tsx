@@ -5,16 +5,16 @@ const Skill = () => {
   const skills = [
     { src: "/js.png", alt: "javascript" },
     { src: "/typeScript.png", alt: "typeScript" },
-    { src: "/reactl.png", alt: "react" },
-    { src: "/redux.png", alt: "redux" },
+    { src: "/reactl.png", alt: "React" },
+    { src: "/redux.png", alt: "Redux" },
     { src: "/nextjs.png", alt: "next.js" },
-    { src: "/node.png", alt: "node.js" },
-    { src: "/express-js.png", alt: "express" },
-    { src: "/tailwind.png", alt: "tailwind" },
-    { src: "/mongodb-logo.png", alt: "mongodb" },
-    { src: "/mongoose.png", alt: "mongoose" },
-    { src: "/html5.png", alt: "html" },
-    { src: "/css.png", alt: "css" },
+    { src: "/node.png", alt: "Node.js" },
+    { src: "/express-js.png", alt: "Express" },
+    { src: "/tailwind.png", alt: "Tailwind" },
+    { src: "/mongodb-logo.png", alt: "Mongodb" },
+    { src: "/mongoose.png", alt: "Mongoose" },
+    { src: "/html5.png", alt: "Html" },
+    { src: "/css.png", alt: "Css" },
   ];
 
   const tools = [
